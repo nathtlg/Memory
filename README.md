@@ -9,12 +9,13 @@
 ## Technologies
 
 - HTML5
-- CSS3 (CSS Grid et Flex)
+- CSS3 (CSS Grid et Flexbox)
 - JavaScript ES6
 - API Picsum
 
 ## Fonctionnalités
 
+- Accessibilité (A11y ARIA) : Utilisation des attributs `aria-label` et `aria-live` pour informer les lecteurs d'écran de l'état des cartes et du jeu.
 - 16 cartes et 8 paires d'images
 - Mélange
 - Détection des paires
@@ -26,7 +27,7 @@
 1. Cloner le dépôt :
 
    ```bash
-   git clone https://github.com/nathtlg/memory.git
+   git clone https://github.com/nathtlg/Memory.git
    ```
 
 2. Ouvrir le dossier dans VS Code.
