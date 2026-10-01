@@ -2,18 +2,27 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jeu de Memory interactif, rapide et accessible. Retrouvez les paires d'images le plus rapidement possible.">
     <title>Jeu de Memory</title>
     <link rel="stylesheet" href="CSS/style.css">
     <script src="JS/script.js" defer></script>
 </head>
 
 <body>
-    <div id="infos">
-        <span id="moves">Coups: 0</span>
-        <span id="timer">Temps: 00:00</span>
-    </div>
-    <div id="game-board"></div>
-    <div id="result"></div>
-    <button id="restart-btn">Rejouer</button>
+    <main>
+        <h1 class="sr-only">Jeu de Memory</h1>
+        
+        <div id="infos">
+            <span id="moves" aria-live="polite">Coups: 0</span>
+            <span id="timer" aria-live="polite">Temps: 00:00</span>
+        </div>
+        
+        <div id="game-board" aria-label="Plateau de jeu"></div>
+        
+        <div id="result" aria-live="polite"></div>
+        
+        <button id="restart-btn">Rejouer</button>
+    </main>
 </body>
 </html>
