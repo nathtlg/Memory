@@ -4,7 +4,7 @@
 
 ## Démo
 
-[Accès au jeu](https://nathtlg.github.io/memory/)
+[Accès au jeu](https://nathtlg.github.io/Memory/)
 
 ## Technologies
 
